@@ -85,3 +85,9 @@ age=25
 age_verified = True
 can_watch_coolie =(age>=18) and age_verified 
 print(can_watch_coolie)
+
+can_watch_coolie = (age>=18) or age_verified
+print(can_watch_coolie)
+
+can_watch_coolie =(age<18) or not age_verified
+print(can_watch_coolie)
